@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DE384B91F6ED448004F8B7B /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DE384B81F6ED448004F8B7B /* iphone.jpg */; };
+		3DE384BB1F6ED6D8004F8B7B /* logo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE384BA1F6ED6D8004F8B7B /* logo_bg.png */; };
 		3DFAB4281F6E499D00255238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAB4271F6E499D00255238 /* AppDelegate.swift */; };
 		3DFAB42A1F6E499D00255238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAB4291F6E499D00255238 /* ViewController.swift */; };
 		3DFAB42D1F6E499D00255238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAB42B1F6E499D00255238 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		3DFAB4351F6E499D00255238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAB4331F6E499D00255238 /* LaunchScreen.storyboard */; };
 		3DFAB4401F6E499E00255238 /* HomeOfficeBotAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAB43F1F6E499E00255238 /* HomeOfficeBotAppTests.swift */; };
 		3DFAB44B1F6E499E00255238 /* HomeOfficeBotAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAB44A1F6E499E00255238 /* HomeOfficeBotAppUITests.swift */; };
+		3FC328CBB472BB7912C0A5B4 /* Pods_HomeOfficeBotAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5A1643442387D6255CB14A /* Pods_HomeOfficeBotAppTests.framework */; };
+		43D1B847BCFCA0314246D548 /* Pods_HomeOfficeBotAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0DEE23C2BD64636FDC661 /* Pods_HomeOfficeBotAppUITests.framework */; };
+		6AA2FD9B48B90EBC73F16153 /* Pods_HomeOfficeBotApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA29E5CC9DCAA282F2CC9CF5 /* Pods_HomeOfficeBotApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DE384B81F6ED448004F8B7B /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone.jpg; path = ../../iphone.jpg; sourceTree = "<group>"; };
+		3DE384BA1F6ED6D8004F8B7B /* logo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_bg.png; path = ../../logo_bg.png; sourceTree = "<group>"; };
 		3DFAB4241F6E499D00255238 /* HomeOfficeBotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeOfficeBotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFAB4271F6E499D00255238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFAB4291F6E499D00255238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		3DFAB4461F6E499E00255238 /* HomeOfficeBotAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeOfficeBotAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFAB44A1F6E499E00255238 /* HomeOfficeBotAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOfficeBotAppUITests.swift; sourceTree = "<group>"; };
 		3DFAB44C1F6E499E00255238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F653BD67F36A7EE37A4886F /* Pods-HomeOfficeBotAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOfficeBotAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeOfficeBotAppUITests/Pods-HomeOfficeBotAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6FFB518ECDB5DB11FAAE05 /* Pods-HomeOfficeBotAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOfficeBotAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeOfficeBotAppTests/Pods-HomeOfficeBotAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		935ED750087A84070C780310 /* Pods-HomeOfficeBotApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOfficeBotApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeOfficeBotApp/Pods-HomeOfficeBotApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB0DEE23C2BD64636FDC661 /* Pods_HomeOfficeBotAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeOfficeBotAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5A1643442387D6255CB14A /* Pods_HomeOfficeBotAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeOfficeBotAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953760EC3ABEF653129AC1D /* Pods-HomeOfficeBotAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOfficeBotAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeOfficeBotAppUITests/Pods-HomeOfficeBotAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2C8FE4B2483C7AD706B9F41 /* Pods-HomeOfficeBotApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOfficeBotApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeOfficeBotApp/Pods-HomeOfficeBotApp.release.xcconfig"; sourceTree = "<group>"; };
+		E7FDB7A1B128CDA1D6D2C01F /* Pods-HomeOfficeBotAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOfficeBotAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeOfficeBotAppTests/Pods-HomeOfficeBotAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA29E5CC9DCAA282F2CC9CF5 /* Pods_HomeOfficeBotApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeOfficeBotApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA2FD9B48B90EBC73F16153 /* Pods_HomeOfficeBotApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC328CBB472BB7912C0A5B4 /* Pods_HomeOfficeBotAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D1B847BCFCA0314246D548 /* Pods_HomeOfficeBotAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				3DFAB43E1F6E499E00255238 /* HomeOfficeBotAppTests */,
 				3DFAB4491F6E499E00255238 /* HomeOfficeBotAppUITests */,
 				3DFAB4251F6E499D00255238 /* Products */,
+				AAAC31002C5735D6CDBD3AB7 /* Pods */,
+				6E1131FFFB4352419EF6751C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,8 @@
 		3DFAB4261F6E499D00255238 /* HomeOfficeBotApp */ = {
 			isa = PBXGroup;
 			children = (
+				3DE384BA1F6ED6D8004F8B7B /* logo_bg.png */,
+				3DE384B81F6ED448004F8B7B /* iphone.jpg */,
 				3DFAB4271F6E499D00255238 /* AppDelegate.swift */,
 				3DFAB4291F6E499D00255238 /* ViewController.swift */,
 				3DFAB42B1F6E499D00255238 /* Main.storyboard */,
@@ -128,6 +151,29 @@
 			path = HomeOfficeBotAppUITests;
 			sourceTree = "<group>";
 		};
+		6E1131FFFB4352419EF6751C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA29E5CC9DCAA282F2CC9CF5 /* Pods_HomeOfficeBotApp.framework */,
+				BF5A1643442387D6255CB14A /* Pods_HomeOfficeBotAppTests.framework */,
+				ACB0DEE23C2BD64636FDC661 /* Pods_HomeOfficeBotAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAAC31002C5735D6CDBD3AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				935ED750087A84070C780310 /* Pods-HomeOfficeBotApp.debug.xcconfig */,
+				D2C8FE4B2483C7AD706B9F41 /* Pods-HomeOfficeBotApp.release.xcconfig */,
+				E7FDB7A1B128CDA1D6D2C01F /* Pods-HomeOfficeBotAppTests.debug.xcconfig */,
+				5C6FFB518ECDB5DB11FAAE05 /* Pods-HomeOfficeBotAppTests.release.xcconfig */,
+				3F653BD67F36A7EE37A4886F /* Pods-HomeOfficeBotAppUITests.debug.xcconfig */,
+				C953760EC3ABEF653129AC1D /* Pods-HomeOfficeBotAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DFAB44F1F6E499E00255238 /* Build configuration list for PBXNativeTarget "HomeOfficeBotApp" */;
 			buildPhases = (
+				EF4F44A6A2CFADEF0439135B /* [CP] Check Pods Manifest.lock */,
 				3DFAB4201F6E499D00255238 /* Sources */,
 				3DFAB4211F6E499D00255238 /* Frameworks */,
 				3DFAB4221F6E499D00255238 /* Resources */,
+				DEAD26A89A52B294ACBAA7F3 /* [CP] Embed Pods Frameworks */,
+				D947040677B088CD36F01881 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DFAB4521F6E499E00255238 /* Build configuration list for PBXNativeTarget "HomeOfficeBotAppTests" */;
 			buildPhases = (
+				9091FD8E205926913725562D /* [CP] Check Pods Manifest.lock */,
 				3DFAB4371F6E499E00255238 /* Sources */,
 				3DFAB4381F6E499E00255238 /* Frameworks */,
 				3DFAB4391F6E499E00255238 /* Resources */,
+				E207C83A41A85C78C7B80139 /* [CP] Embed Pods Frameworks */,
+				E69DCC465B3553302271AAC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DFAB4551F6E499E00255238 /* Build configuration list for PBXNativeTarget "HomeOfficeBotAppUITests" */;
 			buildPhases = (
+				C1162E8590FCB39E266F5033 /* [CP] Check Pods Manifest.lock */,
 				3DFAB4421F6E499E00255238 /* Sources */,
 				3DFAB4431F6E499E00255238 /* Frameworks */,
 				3DFAB4441F6E499E00255238 /* Resources */,
+				E13C5E1B0A42768C9A293C4C /* [CP] Embed Pods Frameworks */,
+				7CB681CB7180D2E94468E0C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE384B91F6ED448004F8B7B /* iphone.jpg in Resources */,
+				3DE384BB1F6ED6D8004F8B7B /* logo_bg.png in Resources */,
 				3DFAB4351F6E499D00255238 /* LaunchScreen.storyboard in Resources */,
 				3DFAB4321F6E499D00255238 /* Assets.xcassets in Resources */,
 				3DFAB42D1F6E499D00255238 /* Main.storyboard in Resources */,
@@ -256,6 +313,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CB681CB7180D2E94468E0C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotAppUITests/Pods-HomeOfficeBotAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9091FD8E205926913725562D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeOfficeBotAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1162E8590FCB39E266F5033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeOfficeBotAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D947040677B088CD36F01881 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotApp/Pods-HomeOfficeBotApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEAD26A89A52B294ACBAA7F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotApp/Pods-HomeOfficeBotApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotApp/Pods-HomeOfficeBotApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E13C5E1B0A42768C9A293C4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotAppUITests/Pods-HomeOfficeBotAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E207C83A41A85C78C7B80139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotAppTests/Pods-HomeOfficeBotAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69DCC465B3553302271AAC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeOfficeBotAppTests/Pods-HomeOfficeBotAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4F44A6A2CFADEF0439135B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeOfficeBotApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DFAB4201F6E499D00255238 /* Sources */ = {
@@ -416,6 +623,7 @@
 		};
 		3DFAB4501F6E499E00255238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935ED750087A84070C780310 /* Pods-HomeOfficeBotApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeOfficeBotApp/Info.plist;
@@ -428,6 +636,7 @@
 		};
 		3DFAB4511F6E499E00255238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C8FE4B2483C7AD706B9F41 /* Pods-HomeOfficeBotApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeOfficeBotApp/Info.plist;
@@ -440,6 +649,7 @@
 		};
 		3DFAB4531F6E499E00255238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FDB7A1B128CDA1D6D2C01F /* Pods-HomeOfficeBotAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +664,7 @@
 		};
 		3DFAB4541F6E499E00255238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6FFB518ECDB5DB11FAAE05 /* Pods-HomeOfficeBotAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +679,7 @@
 		};
 		3DFAB4561F6E499E00255238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F653BD67F36A7EE37A4886F /* Pods-HomeOfficeBotAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HomeOfficeBotAppUITests/Info.plist;
@@ -481,6 +693,7 @@
 		};
 		3DFAB4571F6E499E00255238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C953760EC3ABEF653129AC1D /* Pods-HomeOfficeBotAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HomeOfficeBotAppUITests/Info.plist;
@@ -511,6 +724,7 @@
 				3DFAB4511F6E499E00255238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DFAB4521F6E499E00255238 /* Build configuration list for PBXNativeTarget "HomeOfficeBotAppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +733,7 @@
 				3DFAB4541F6E499E00255238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DFAB4551F6E499E00255238 /* Build configuration list for PBXNativeTarget "HomeOfficeBotAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +742,7 @@
 				3DFAB4571F6E499E00255238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

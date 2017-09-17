@@ -1,0 +1,6 @@
+framework module Pods_HomeOfficeBotApp {
+  umbrella header "Pods-HomeOfficeBotApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

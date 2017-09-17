@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeOfficeBotApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,65 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="iphone.jpg" highlightedImage="iphone.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YSw-oe-Bzq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="659"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="5u7-Es-AJn"/>
+                                    <constraint firstAttribute="height" constant="627" id="JkH-fg-UpY"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JKf-ws-2Bt">
+                                <rect key="frame" x="27" y="57" width="332" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5e-0I-CUs">
+                                <rect key="frame" x="315" y="101" width="42" height="30"/>
+                                <state key="normal" title="Enviar"/>
+                                <connections>
+                                    <action selector="sendButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ilf-t4-azu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RG-qH-rQn">
+                                <rect key="frame" x="27" y="178" width="224" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YSw-oe-Bzq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="3.9199999999999999" id="0bV-V8-lkY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YSw-oe-Bzq" secondAttribute="bottom" constant="20" id="1ma-uU-90V"/>
+                            <constraint firstItem="y5e-0I-CUs" firstAttribute="top" secondItem="JKf-ws-2Bt" secondAttribute="bottom" constant="14" id="4O3-a2-4Ir"/>
+                            <constraint firstItem="YSw-oe-Bzq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4f6-YV-ujS"/>
+                            <constraint firstItem="0RG-qH-rQn" firstAttribute="top" secondItem="JKf-ws-2Bt" secondAttribute="bottom" constant="91" id="4mA-zv-6Gv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0RG-qH-rQn" secondAttribute="trailing" constant="282" id="74Q-wa-EFa"/>
+                            <constraint firstAttribute="trailing" secondItem="YSw-oe-Bzq" secondAttribute="trailing" constant="5.0800000000000001" id="85q-KW-srU"/>
+                            <constraint firstItem="JKf-ws-2Bt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="EUx-hX-Ocr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YSw-oe-Bzq" secondAttribute="bottom" constant="9.6199999999999992" id="Nai-Qg-gXt"/>
+                            <constraint firstItem="0RG-qH-rQn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="SzU-wq-cnc"/>
+                            <constraint firstItem="YSw-oe-Bzq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="WBN-GX-g9x"/>
+                            <constraint firstItem="JKf-ws-2Bt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="WqW-zW-Tka"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y5e-0I-CUs" secondAttribute="trailing" constant="2" id="fOo-fn-j3O"/>
+                            <constraint firstItem="YSw-oe-Bzq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10.380000000000001" id="moz-7a-M0D"/>
+                            <constraint firstItem="y5e-0I-CUs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="299" id="t9n-CD-2I3"/>
+                            <constraint firstItem="JKf-ws-2Bt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yhj-LV-MWa"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageInput" destination="JKf-ws-2Bt" id="z34-IB-nax"/>
+                        <outlet property="statusLabel" destination="0RG-qH-rQn" id="bBB-Cp-WtL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iphone.jpg" width="1080" height="1920"/>
+    </resources>
 </document>
