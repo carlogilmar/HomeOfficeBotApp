@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DE384B91F6ED448004F8B7B /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DE384B81F6ED448004F8B7B /* iphone.jpg */; };
-		3DE384BB1F6ED6D8004F8B7B /* logo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE384BA1F6ED6D8004F8B7B /* logo_bg.png */; };
+		3D5D30C81F70DD5600959A45 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D30C51F70DD5600959A45 /* iphone.jpg */; };
+		3D5D30C91F70DD5600959A45 /* logo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D30C61F70DD5600959A45 /* logo_bg.png */; };
+		3D5D30CA1F70DD5600959A45 /* slack-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D30C71F70DD5600959A45 /* slack-chat.png */; };
 		3DFAB4281F6E499D00255238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAB4271F6E499D00255238 /* AppDelegate.swift */; };
 		3DFAB42A1F6E499D00255238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAB4291F6E499D00255238 /* ViewController.swift */; };
 		3DFAB42D1F6E499D00255238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAB42B1F6E499D00255238 /* Main.storyboard */; };
@@ -40,8 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DE384B81F6ED448004F8B7B /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone.jpg; path = ../../iphone.jpg; sourceTree = "<group>"; };
-		3DE384BA1F6ED6D8004F8B7B /* logo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_bg.png; path = ../../logo_bg.png; sourceTree = "<group>"; };
+		3D5D30C51F70DD5600959A45 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone.jpg; path = ../../../../Desktop/iphone.jpg; sourceTree = "<group>"; };
+		3D5D30C61F70DD5600959A45 /* logo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_bg.png; path = ../../../../Desktop/logo_bg.png; sourceTree = "<group>"; };
+		3D5D30C71F70DD5600959A45 /* slack-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slack-chat.png"; path = "../../../../Desktop/slack-chat.png"; sourceTree = "<group>"; };
 		3DFAB4241F6E499D00255238 /* HomeOfficeBotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeOfficeBotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFAB4271F6E499D00255238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFAB4291F6E499D00255238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,8 +122,9 @@
 		3DFAB4261F6E499D00255238 /* HomeOfficeBotApp */ = {
 			isa = PBXGroup;
 			children = (
-				3DE384BA1F6ED6D8004F8B7B /* logo_bg.png */,
-				3DE384B81F6ED448004F8B7B /* iphone.jpg */,
+				3D5D30C51F70DD5600959A45 /* iphone.jpg */,
+				3D5D30C61F70DD5600959A45 /* logo_bg.png */,
+				3D5D30C71F70DD5600959A45 /* slack-chat.png */,
 				3DFAB4271F6E499D00255238 /* AppDelegate.swift */,
 				3DFAB4291F6E499D00255238 /* ViewController.swift */,
 				3DFAB42B1F6E499D00255238 /* Main.storyboard */,
@@ -290,8 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE384B91F6ED448004F8B7B /* iphone.jpg in Resources */,
-				3DE384BB1F6ED6D8004F8B7B /* logo_bg.png in Resources */,
+				3D5D30C91F70DD5600959A45 /* logo_bg.png in Resources */,
+				3D5D30C81F70DD5600959A45 /* iphone.jpg in Resources */,
+				3D5D30CA1F70DD5600959A45 /* slack-chat.png in Resources */,
 				3DFAB4351F6E499D00255238 /* LaunchScreen.storyboard in Resources */,
 				3DFAB4321F6E499D00255238 /* Assets.xcassets in Resources */,
 				3DFAB42D1F6E499D00255238 /* Main.storyboard in Resources */,

@@ -14,24 +14,34 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var messageInput: UITextField!
     @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var developer: UITextField!
+    @IBOutlet weak var developerStatus: UITextField!
     
   
     @IBAction func sendButton(_ sender: UIButton) {
-        print("Realizando peticion")
-        sendSlackMessage(message: messageInput.text!)
-        statusLabel.text = "Enviado a slack"
+        print("Enviando mensaje")
+        let slackMessage = "*Making Devs Developer:* \(developer.text!) \n *Message:* \(messageInput.text!)"
+        sendSlackMessage(message: slackMessage, emoji: ":rocket:")
+        statusLabel.text = "Msg enviado a slack"
+        messageInput.text = ""
+    }
+    
+    @IBAction func sendDeveloperStatus(_ sender: UIButton) {
+        print("Enviando status")
+        let statusMessage = "*Making Devs Developer:* \(developer.text!) \n *Current Status:* \(developerStatus.text!)"
+        sendSlackMessage(message: statusMessage, emoji: ":robot_face:")
+        statusLabel.text="\(developerStatus.text!)"
+        developerStatus.text=""
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("Hola inmundo!!!")
-        sendSlackMessage(message: "Inicializando iOS App")
     }
     
-    func sendSlackMessage(message:String){
+    func sendSlackMessage(message:String, emoji:String){
         let slackUrl = "https://hooks.slack.com/services/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"
-        Alamofire.request(slackUrl, method: .post, parameters: ["channel": "#general", "username": "HomeOfficeBot", "text":message, "icon_emoji":":smile:"], encoding: JSONEncoding.default).responseString{ response in
+        Alamofire.request(slackUrl, method: .post, parameters: ["channel": "@carlogilmar", "username": "Home Office Bot", "text":message, "icon_emoji":emoji], encoding: JSONEncoding.default).responseString{ response in
             print("***************************")
             print(response)
             print("***************************")
